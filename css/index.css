@@ -976,6 +976,94 @@ footer {
   }
 }
 
+@media screen and (max-width: 414px) {
+  header {
+    padding: 15px 5%;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .nav_links {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffff;
+    top: 70px;
+    right: 23px;
+    z-index: 2;
+    padding: 8px 3%;
+    border-radius: 25px;
+  }
+  .nav_links li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .nav_links a {
+    color: #1e1e2c;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header h1 {
+    margin-right: auto;
+  }
+  header > a {
+    font-size: 13px;
+    padding: 6px 2%;
+    margin-right: 10px;
+  }
+  header img {
+    display: block;
+  }
+  .section .hero_container .hero_left h1 {
+    font-size: 30px;
+  }
+  .section .hero_container .hero_left p {
+    font-size: 13px;
+  }
+  .section .hero_container .hero_left a {
+    font-size: 11px;
+  }
+  .section .hero_container .hero_right {
+    width: 100%;
+  }
+  .section .hero_container .hero_right img {
+    width: 50%;
+  }
+  .section .hero_container .hero_left h1 {
+    font-size: 30px;
+  }
+  .section .title {
+    font-size: 18px;
+  }
+  .section .education_container .edu_box1 {
+    height: 28vh;
+  }
+  .section .skills_container .skills_left svg {
+    border-bottom: 0 none;
+    width: 80%;
+  }
+  .section .contact_container {
+    grid-template-columns: repeat(3, 100px);
+    gap: 0.5rem;
+  }
+  .section .contact_container .cont_box > a {
+    font-size: 13px;
+  }
+  .section .contact_container .cont_box > svg {
+    width: 45%;
+  }
+  .section .contact_container .cont_box p {
+    display: none;
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 393px) {
   header {
     padding: 15px 5%;
